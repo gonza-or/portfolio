@@ -1,16 +1,14 @@
-# Preparación para explicar el laboratorio
+# Para explicar los proyectos
 
-Leer y ejecutar cada proyecto antes de incluirlo en una entrevista. Presentarlo como práctica personal y explicar qué se verificó realmente; no afirmar dominio de una herramienta por tener un script.
+Ejecutá cada proyecto antes de presentarlo. Mostrá una consulta y explicá qué devuelve y qué no puede comprobar.
 
-| Proyecto | Pregunta para practicar | Punto que conviene entender |
-| --- | --- | --- |
-| Monitor | ¿Qué significa «Sin umbrales superados»? | Sólo CPU, RAM y disco bajo 90% en esa muestra; no garantiza salud del equipo. |
-| Bash | ¿Por qué un servicio inactivo devuelve error? | El código de salida también comunica estado; no se reinicia el servicio. |
-| PowerShell | ¿En qué se diferencia un pipeline de Bash? | Los cmdlets pasan objetos con propiedades; Bash normalmente pasa texto. |
-| Redes | ¿Puede funcionar DNS y fallar TCP? | Sí: resolver un nombre no garantiza que el puerto acepte conexiones. |
-| Seguridad | ¿Un hash coincidente prueba que un archivo es seguro? | Sólo prueba igualdad con la referencia; su procedencia importa. |
-| Apache | ¿Qué hace DocumentRoot? | Define el directorio desde el que Apache sirve el sitio. |
+| Proyecto | Tema |
+| --- | --- |
+| Monitor | Una muestra de CPU, RAM o disco no es un diagnóstico completo. |
+| Bash | El código de salida de `systemctl` también informa el estado del servicio. |
+| PowerShell | Los cmdlets pasan objetos con propiedades. |
+| Redes | Resolver DNS no significa que el puerto esté abierto. |
+| Seguridad | Un hash igual depende de que el hash esperado sea confiable. |
+| Apache | `DocumentRoot` indica desde dónde se sirven los archivos. |
 
-Recorrido sugerido: mostrar un README, ejecutar una consulta, provocar un error controlado (ruta inexistente o puerto local sin servicio) y explicar el resultado. No mostrar salidas con datos privados ni contraseñas generadas.
-
-Limitaciones que se pueden reconocer con claridad: no hay monitoreo histórico, reparación automática, análisis forense, pruebas de hardware ni detección de malware. Son herramientas pequeñas de observación y práctica.
+No mostrar IP, rutas privadas ni contraseñas generadas. El alcance es consulta y diagnóstico básico: no hay reparación automática, análisis forense ni pruebas completas de hardware.
