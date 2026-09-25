@@ -1,91 +1,81 @@
 <!doctype html>
 <html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio técnico de Gonzalo Ortiz: soporte IT, infraestructura, redes, automatización y desarrollo.">
-  <meta name="theme-color" content="#f7f7f5">
-  <title>Gonzalo Ortiz — Portfolio técnico</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <a class="skip-link" href="#contenido">Saltar al contenido</a>
-  <div class="layout">
-    <aside class="sidebar">
-      <a class="brand" href="#inicio">Gonzalo Ortiz<span class="dot">.</span></a>
-      <p class="role">Soporte IT · Redes<br>Automatización · Desarrollo</p>
-      <nav aria-label="Navegación principal">
-        <a href="#sobre-mi">Sobre mí</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#tecnologias">Tecnologías</a>
-        <a href="#formacion">Formación</a>
-        <a href="#contacto">Contacto</a>
-      </nav>
-      <div class="sidebar-footer">
-        <a href="https://github.com/gonza-or">github.com/gonza-or</a>
-        <span>Montevideo, Uruguay</span>
-      </div>
-    </aside>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Portfolio técnico de Gonzalo Ortiz: soporte IT, infraestructura, redes, automatización y desarrollo.">
+    <title>Gonzalo Ortiz — Portfolio técnico</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Gonzalo Ortiz</h1>
+        <p>Técnico en Automatización Industrial y estudiante de Tecnologías de la Información.</p>
+        <p class="view"><a href="https://github.com/gonza-or">Ver mi perfil en GitHub<br><small>github.com/gonza-or</small></a></p>
+        <ul>
+          <li><a href="#proyectos">Ver <strong>Proyectos</strong></a></li>
+          <li><a href="#formacion">Ver <strong>Formación</strong></a></li>
+          <li><a href="#contacto">Ir a <strong>Contacto</strong></a></li>
+        </ul>
+      </header>
 
-    <main id="contenido">
-      <section id="inicio" class="hero" aria-labelledby="hero-title">
-        <p class="eyebrow">PORTFOLIO TÉCNICO / 2026</p>
-        <h1 id="hero-title">Tecnología aplicada<br><em>con criterio.</em></h1>
-        <p class="lead">Técnico en Automatización Industrial y estudiante de Tecnologías de la Información, orientado a soporte IT, infraestructura, redes, automatización y desarrollo.</p>
-        <div class="hero-links">
-          <a class="button" href="#proyectos">Ver proyectos <span aria-hidden="true">↓</span></a>
-          <a href="https://github.com/gonza-or">GitHub <span aria-hidden="true">↗</span></a>
-        </div>
+      <section>
+        <h1>Portfolio técnico</h1>
+        <p>Orientado a soporte IT, infraestructura, redes, automatización y desarrollo.</p>
+
+        <h2 id="sobre-mi">Sobre mí</h2>
+        <p>Desde chico me interesa la informática: empecé creando proyectos en Scratch y explorando cómo funcionaban los sistemas. Con el tiempo, esa curiosidad se convirtió en una formación orientada a soporte, redes, desarrollo y automatización.</p>
+        <p>Me gusta trabajar cerca del problema: diagnosticar, documentar, comunicar con claridad y construir soluciones que puedan mantenerse y escalar.</p>
+
+        <h2 id="proyectos">Proyectos</h2>
+        <p>Herramientas personales para diagnosticar, automatizar y comprender mejor sistemas de escritorio, redes y procesos industriales.</p>
+        <h3>PC Diagnostic Toolkit</h3>
+        <p>Diagnóstico de hardware, sistema operativo, almacenamiento, red y procesos.</p>
+        <p><strong>Tecnologías:</strong> Python, PowerShell, Bash.</p>
+        <h3>Network Diagnostic Toolkit</h3>
+        <p>Ping, traceroute, DNS, interfaces, gateway, puertos y diagnóstico de conectividad.</p>
+        <p><strong>Tecnologías:</strong> Python, Bash, PowerShell.</p>
+        <h3>Security Toolkit</h3>
+        <p>Hash de archivos, integridad, conexiones activas, procesos y análisis defensivo básico.</p>
+        <p><strong>Tecnologías:</strong> Python.</p>
+        <h3>GSIMPLC</h3>
+        <p>Simulador PLC/SCADA con Modbus TCP y herramientas orientadas a automatización industrial.</p>
+        <p><strong>Tecnologías:</strong> Python, Modbus TCP, WebSocket, HTML, CSS, JavaScript.</p>
+
+        <h2 id="tecnologias">Tecnologías</h2>
+        <p>Python · Java · Bash · PowerShell · Linux · Docker · PostgreSQL · Git · Cisco · GNS3 · Networking · PLC · SCADA · Modbus</p>
+
+        <h2 id="formacion">Formación</h2>
+        <dl>
+          <dt>2024 — actualidad</dt>
+          <dd>Licenciatura en Tecnologías de la Información · UTEC. Formación profesional en sistemas, testing, calidad y construcción de soluciones funcionales y escalables.</dd>
+          <dt>Finalizada · febrero de 2026</dt>
+          <dd>Tecnicatura en Instrumentación Industrial. Electrónica, procesos de producción y trabajo bajo presión en entornos donde la continuidad operativa es crítica.</dd>
+          <dt>2025 — actualidad</dt>
+          <dd>Formación docente. Una profesión que me permite compartir conocimientos, acompañar procesos de aprendizaje y seguir aprendiendo con otras personas.</dd>
+          <dt>Formación previa</dt>
+          <dd>Bachillerato de Informática · UTU, con énfasis en soporte de Windows y redes, y en desarrollo web.</dd>
+        </dl>
+
+        <h2>Experiencia</h2>
+        <p><strong>Municipalidad de mi ciudad · 2024</strong><br>Participé junto a tres compañeros en proyectos de digitalización. Realicé tareas de reparación y soporte de equipos, manteniendo la disponibilidad operativa del personal.</p>
+        <p><strong>Freelance · actualidad</strong><br>Diseño páginas web internas y sistemas para clientes bajo acuerdos de confidencialidad. Esta experiencia me acercó a las necesidades reales de cada cliente y al soporte de soluciones mantenibles y escalables.</p>
+
+        <h2 id="contacto">Contacto</h2>
+        <p>Estoy abierto a oportunidades en soporte IT, infraestructura, redes, automatización y desarrollo.</p>
+        <ul>
+          <li><a href="https://github.com/gonza-or">GitHub: gonza-or</a></li>
+          <li>Email: <a href="mailto:REEMPLAZAR_EMAIL@example.com">REEMPLAZAR_EMAIL@example.com</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/REEMPLAZAR_PERFIL/">REEMPLAZAR_PERFIL</a></li>
+        </ul>
+        <p><small>Reemplazar los datos de contacto indicados como placeholder antes de compartir.</small></p>
       </section>
 
-      <section id="sobre-mi" class="section" aria-labelledby="about-title">
-        <div class="section-label"><span>01</span> SOBRE MÍ</div>
-        <div class="section-content two-columns">
-          <h2 id="about-title">Resolver, entender<br>y dejar mejor.</h2>
-          <div class="copy">
-            <p>Desde chico me interesa la informática: empecé creando proyectos en Scratch y explorando cómo funcionaban los sistemas. Con el tiempo, esa curiosidad se convirtió en una formación orientada a soporte, redes, desarrollo y automatización.</p>
-            <p>Me gusta trabajar cerca del problema: diagnosticar, documentar, comunicar con claridad y construir soluciones que puedan mantenerse y escalar.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="proyectos" class="section" aria-labelledby="projects-title">
-        <div class="section-label"><span>02</span> PROYECTOS</div>
-        <div class="section-content">
-          <div class="section-intro"><h2 id="projects-title">Herramientas para<br>problemas reales.</h2><p>Proyectos personales para diagnosticar, automatizar y comprender mejor sistemas de escritorio, redes y procesos industriales.</p></div>
-          <div class="project-list">
-            <article class="project"><div class="project-number">01</div><div><h3>PC Diagnostic Toolkit</h3><p>Diagnóstico de hardware, sistema operativo, almacenamiento, red y procesos.</p><ul class="tags"><li>Python</li><li>PowerShell</li><li>Bash</li></ul></div></article>
-            <article class="project"><div class="project-number">02</div><div><h3>Network Diagnostic Toolkit</h3><p>Ping, traceroute, DNS, interfaces, gateway, puertos y diagnóstico de conectividad.</p><ul class="tags"><li>Python</li><li>Bash</li><li>PowerShell</li></ul></div></article>
-            <article class="project"><div class="project-number">03</div><div><h3>Security Toolkit</h3><p>Hash de archivos, integridad, conexiones activas, procesos y análisis defensivo básico.</p><ul class="tags"><li>Python</li></ul></div></article>
-            <article class="project"><div class="project-number">04</div><div><h3>GSIMPLC</h3><p>Simulador PLC/SCADA con Modbus TCP y herramientas orientadas a automatización industrial.</p><ul class="tags"><li>Python</li><li>Modbus TCP</li><li>WebSocket</li><li>HTML/CSS/JS</li></ul></div></article>
-          </div>
-        </div>
-      </section>
-
-      <section id="tecnologias" class="section" aria-labelledby="tech-title">
-        <div class="section-label"><span>03</span> TECNOLOGÍAS</div>
-        <div class="section-content"><div class="section-intro"><h2 id="tech-title">Un stack<br>práctico.</h2><p>Lenguajes, herramientas y conceptos que uso para aprender y construir.</p></div><div class="tech-list"><span>Python</span><span>Java</span><span>Bash</span><span>PowerShell</span><span>Linux</span><span>Docker</span><span>PostgreSQL</span><span>Git</span><span>Cisco</span><span>GNS3</span><span>Networking</span><span>PLC</span><span>SCADA</span><span>Modbus</span></div></div>
-      </section>
-
-      <section id="formacion" class="section" aria-labelledby="education-title">
-        <div class="section-label"><span>04</span> FORMACIÓN</div>
-        <div class="section-content timeline">
-          <article><time>2024 — actualidad</time><div><h3>Licenciatura en Tecnologías de la Información · UTEC</h3><p>Formación profesional en sistemas, testing, calidad y construcción de soluciones funcionales y escalables.</p></div></article>
-          <article><time>Finalizada · feb. 2026</time><div><h3>Tecnicatura en Instrumentación Industrial</h3><p>Electrónica, procesos de producción y trabajo bajo presión en entornos donde la continuidad operativa es crítica.</p></div></article>
-          <article><time>2025 — actualidad</time><div><h3>Formación docente</h3><p>Encontré una profesión que me permite compartir conocimientos, acompañar procesos de aprendizaje y seguir aprendiendo con otras personas.</p></div></article>
-          <article><time>Formación previa</time><div><h3>Bachillerato de Informática · UTU</h3><p>Énfasis en soporte de Windows y redes, y en desarrollo web.</p></div></article>
-        </div>
-      </section>
-
-      <section class="section experience" aria-labelledby="experience-title">
-        <div class="section-label"><span>05</span> EXPERIENCIA</div>
-        <div class="section-content two-columns"><h2 id="experience-title">Aprender haciendo.</h2><div class="copy"><p><strong>Municipalidad de mi ciudad · 2024</strong><br>Participé junto a tres compañeros en proyectos de digitalización. Realicé tareas de reparación y soporte de equipos, manteniendo la disponibilidad operativa del personal.</p><p><strong>Freelance · actualidad</strong><br>Diseño páginas web internas y sistemas para clientes bajo acuerdos de confidencialidad. Esta experiencia me acercó a las necesidades reales de cada cliente y al soporte de soluciones mantenibles y escalables.</p></div></div>
-      </section>
-
-      <section id="contacto" class="section contact" aria-labelledby="contact-title"><div class="section-label"><span>06</span> CONTACTO</div><div class="section-content"><h2 id="contact-title">¿Hablamos?</h2><p class="lead small">Estoy abierto a oportunidades en soporte IT, infraestructura, redes, automatización y desarrollo.</p><div class="contact-links"><a href="https://github.com/gonza-or">GitHub / gonza-or <span aria-hidden="true">↗</span></a><a href="mailto:REEMPLAZAR_EMAIL@example.com">Email <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/REEMPLAZAR_PERFIL/">LinkedIn <span aria-hidden="true">↗</span></a></div><p class="placeholder">Reemplazar los datos de contacto indicados como placeholder antes de compartir.</p></div></section>
-
-      <footer><span>© 2026 Gonzalo Ortiz</span><a href="#inicio">Volver arriba ↑</a></footer>
-    </main>
-  </div>
-</body>
+      <footer>
+        <p>© 2026 Gonzalo Ortiz</p>
+        <p><small>Hosted on GitHub Pages · Diseño basado en <a href="https://github.com/orderedlist/minimal">orderedlist/minimal</a></small></p>
+      </footer>
+    </div>
+  </body>
 </html>

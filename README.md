@@ -1,6 +1,6 @@
 # Portfolio técnico — Gonzalo Ortiz
 
-Portfolio personal estático, compatible con GitHub Pages. Está construido únicamente con HTML y CSS, sin frameworks ni dependencias externas.
+Portfolio personal estático, compatible con GitHub Pages. Está construido únicamente con HTML y CSS, usando como base visual el tema [Minimal de orderedlist](https://github.com/orderedlist/minimal), sin frameworks ni dependencias externas.
 
 ## Ejecutar localmente
 
