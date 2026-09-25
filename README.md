@@ -1,46 +1,29 @@
-# Portfolio técnico
+# Portfolio técnico — Gonzalo Ortiz
 
-Portfolio de Gonzalo Ortiz para una postulación a Auxiliar de Informática.
+Portfolio personal estático, compatible con GitHub Pages. Está construido únicamente con HTML y CSS, sin frameworks ni dependencias externas.
 
-Web: https://gonza-or.github.io/portfolio/web/
+## Ejecutar localmente
 
-## Repositorios
-
-- [Python System Monitor](https://github.com/gonza-or/python-system-monitor)
-- [Bash Linux Toolkit](https://github.com/gonza-or/bash-linux-toolkit)
-- [PowerShell Windows Toolkit](https://github.com/gonza-or/powershell-windows-toolkit)
-- [Network Diagnostic Toolkit](https://github.com/gonza-or/network-diagnostic-toolkit)
-- [Cybersecurity Toolkit](https://github.com/gonza-or/cybersecurity-toolkit)
-
-Cada repositorio tiene su código y su README.
-
-## Ver la web
+Desde la raíz del repositorio:
 
 ```bash
-git clone https://github.com/gonza-or/portfolio.git
-cd portfolio
-python3 -m http.server 8000 --bind 127.0.0.1 --directory web
+python3 -m http.server 8000
 ```
 
-Abrir `http://127.0.0.1:8000`.
+Abrir <http://localhost:8000> en el navegador.
 
-La web es HTML y CSS. No usa npm ni backend.
+## Modificar el contenido
 
-## Estructura
+- Editar `index.html` para cambiar textos, proyectos, formación y enlaces.
+- Editar `styles.css` para ajustar colores, tipografía o distribución.
+- Reemplazar los enlaces que contienen `REEMPLAZAR_` en la sección de contacto.
+- `_config.yml` contiene la configuración mínima de GitHub Pages/Jekyll.
 
-```text
-web/          sitio
-docs/         guías
-screenshots/  capturas
-index.html    entrada de GitHub Pages
-```
+## Publicar con GitHub Pages
 
-Los proyectos se mantienen en los repositorios separados. El contenido es práctica personal y no representa experiencia laboral ni certificaciones.
+1. Subir los cambios a la rama `main`.
+2. En GitHub, abrir **Settings → Pages**.
+3. En **Build and deployment**, elegir **Deploy from a branch**.
+4. Seleccionar `main` y la carpeta `/ (root)`, y guardar.
 
-## Documentación
-
-- [Diagnóstico de PC](docs/diagnostico-pc.md)
-- [Apache](docs/apache.md)
-- [Publicación](docs/publicacion.md)
-- [Validación](docs/verification.md)
-- [Entrevista](docs/entrevista.md)
+La dirección esperada es <https://gonza-or.github.io/portfolio/>.

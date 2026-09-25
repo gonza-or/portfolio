@@ -1,0 +1,9 @@
+title: Gonzalo Ortiz — Portfolio técnico
+description: Soporte IT, infraestructura, redes, automatización y desarrollo.
+url: https://gonza-or.github.io
+baseurl: /portfolio
+lang: es
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
