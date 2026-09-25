@@ -63,7 +63,7 @@ pre { font: 12px/1.85 var(--mono); margin: 0; padding: 25px; overflow: auto; }
 .project-card h3 { font-size: 23px; margin-bottom: 13px; }
 .project-card > p:not(.example-label) { font-size: 13px; color: var(--muted); min-height: 65px; margin-bottom: 22px; }
 .code-preview { background: #e8ece1; padding: 17px 14px; min-height: 98px; overflow-x: auto; }
-.code-preview code { font: 10px/1.9 var(--mono); white-space: nowrap; }
+.code-preview code { font: 10px/1.9 var(--mono); overflow-wrap: anywhere; }
 .code-preview code span { color: #805022; }
 .project-card .example-label { font-size: 9px; min-height: 29px; }
 .tags { display: flex; flex-wrap: wrap; list-style: none; padding: 0; gap: 7px; margin: 17px 0 24px; }
@@ -72,7 +72,7 @@ pre { font: 12px/1.85 var(--mono); margin: 0; padding: 25px; overflow: auto; }
 .card-links a { text-decoration: none; }
 .card-links a:hover { text-decoration: underline; }
 .lab-note { padding: 30px 24px; display: flex; flex-direction: column; align-items: start; justify-content: center; }
-.note-symbol { font: 30px var(--mono); color: #819275; margin-bottom: 31px; }
+.note-symbol { font: 30px var(--mono); color: #617254; margin-bottom: 31px; }
 .lab-note .eyebrow { font-size: 10px; margin-bottom: 17px; }
 .lab-note h3 { font-size: 27px; }
 .lab-note > p:not(.eyebrow) { color: var(--muted); font-size: 13px; margin: 18px 0 25px; }

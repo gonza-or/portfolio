@@ -14,7 +14,7 @@ require() {
 }
 
 valid_target() {
-    if [[ ! "$1" =~ ^[a-zA-Z0-9][a-zA-Z0-9._:%-]*$ ]]; then
+    if [[ ! "$1" =~ ^[a-zA-Z0-9:][a-zA-Z0-9._:%-]*$ ]]; then
         printf '%s\n' 'Destino inválido: indicar un hostname o una IP, sin opciones ni espacios.' >&2
         exit 2
     fi
