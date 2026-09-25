@@ -37,7 +37,7 @@ La instancia Apache de prueba usó un puerto alto local y archivos temporales, s
 
 ## Comprobación pendiente en Windows
 
-Abrir PowerShell en `projects/powershell-windows-toolkit` y ejecutar los ejemplos del README. Confirmar equipo, versión, CPU, RAM, discos, adaptadores/IP, procesos y servicios contra las herramientas del sistema. Para eventos, contrastar con el Visor de eventos; ausencia de coincidencias o falta de permisos puede generar un mensaje de consulta fallida.
+Clonar `https://github.com/gonza-or/powershell-windows-toolkit` y abrir PowerShell en esa carpeta. Ejecutar los ejemplos del README. Confirmar equipo, versión, CPU, RAM, discos, adaptadores/IP, procesos y servicios contra las herramientas del sistema. Para eventos, contrastar con el Visor de eventos; ausencia de coincidencias o falta de permisos puede generar un mensaje de consulta fallida.
 
 Probar `Ping` con `127.0.0.1`. Para TCP, iniciar un servidor local de prueba en otra terminal (`py -m http.server 8000 --bind 127.0.0.1` desde `web/`), consultar `-Action TCP -TargetHost localhost -Port 8000` y detener el servidor. Repetir con el servidor detenido para observar `TcpTestSucceeded=False` y salida 1. Validar también `-TargetHost ::1` si IPv6 está habilitado.
 
