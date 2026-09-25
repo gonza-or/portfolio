@@ -12,15 +12,15 @@ Abrir `http://127.0.0.1:8000` y detener con Ctrl+C. La web es HTML/CSS estático
 
 ## GitHub Pages
 
-El workflow [pages.yml](../.github/workflows/pages.yml) publica el contenido de `web/` cuando hay un push a `main`.
+El sitio se publica directamente desde la rama `main`, sin un workflow propio. La entrada [index.html](../index.html) redirige a `web/`; `.nojekyll` indica que no se necesita procesar Jekyll.
 
 1. En el repositorio de GitHub, abrir **Settings → Pages**.
-2. En **Build and deployment → Source**, seleccionar **GitHub Actions**.
-3. Ejecutar **Actions → Publish portfolio → Run workflow** si el primer push ocurrió antes de activar Pages.
-4. Esperar la ejecución exitosa y abrir la URL indicada por el despliegue.
+2. En **Build and deployment → Source**, seleccionar **Deploy from a branch**.
+3. Elegir la rama **main**, carpeta **/ (root)**, y guardar.
+4. Esperar el despliegue automático de Pages y abrir la URL indicada. Cada push a `main` vuelve a publicar.
 
-La URL esperada es `https://gonza-or.github.io/portfolio/`; no debe darse por publicada hasta comprobar el despliegue. Las rutas de CSS e icono son relativas y funcionan bajo `/portfolio/`.
+La URL de entrada es `https://gonza-or.github.io/portfolio/`, que lleva a `https://gonza-or.github.io/portfolio/web/`. Las rutas de CSS e icono son relativas y funcionan en ese subdirectorio. Comprobar el despliegue antes de compartir la URL.
 
-Si falla `configure-pages`, verificar que Pages esté habilitado y que el repositorio tenga acceso a esa función. No hacen falta secretos personalizados: el workflow usa el token temporal de GitHub con permisos de Pages.
+No hacen falta secretos personalizados ni permisos para subir workflows. Si no publica, revisar Settings → Pages y la ejecución administrada por GitHub en Actions. La publicación desde la raíz hace públicos los archivos versionados del repositorio; mantener datos privados, entornos virtuales y resultados fuera de Git.
 
 Para hosting propio, ver [Apache](apache.md). No subir `.venv`, resultados locales ni credenciales.

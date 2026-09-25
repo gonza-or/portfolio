@@ -55,7 +55,8 @@ portfolio/
 ├── docs/                        # Guías, pruebas y publicación
 ├── screenshots/                 # Capturas de la web, si están disponibles
 ├── tests/                       # Pruebas locales reproducibles
-└── .github/workflows/pages.yml  # Publicación de web/ en Pages
+├── index.html                   # Entrada de Pages: redirige a web/
+└── .nojekyll                    # Publicación estática sin Jekyll
 ```
 
 ## Validación y límites
