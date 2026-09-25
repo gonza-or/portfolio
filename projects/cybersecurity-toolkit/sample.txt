@@ -1,0 +1,4 @@
+2026-01-01 10:00:00 INFO Service started
+2026-01-01 10:01:00 WARNING Low free space
+2026-01-01 10:02:00 ERROR Authentication failed
+2026-01-01 10:03:00 INFO Access denied
