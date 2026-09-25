@@ -21,6 +21,7 @@ Validación realizada el 24 de septiembre de 2026 en Linux (Ubuntu), con Python 
 | Web | Chromium a 1440, 768, 390 y 320 px | Cinco cards, enlaces internos válidos, sin desbordamiento de página |
 | Accesibilidad | axe-core, reglas WCAG 2 A/AA y 2.1 AA | Sin infracciones automáticas en esos tamaños |
 | Rutas | Destinos de GitHub en la web y enlaces relativos Markdown | Existen en el repositorio |
+| Repositorio | Revisión de archivos versionados y patrones habituales de credenciales | Sin secretos detectados; sin entornos, dependencias ni informes locales versionados |
 
 Las pruebas del navegador se ejecutaron con Playwright y axe-core instalados en una carpeta temporal fuera del repositorio. Se revisaron visualmente las [capturas de escritorio](../screenshots/web-1440.png) y [móvil](../screenshots/web-390.png). Un chequeo automático no sustituye la evaluación manual completa con lector de pantalla.
 

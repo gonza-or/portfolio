@@ -2,6 +2,8 @@
 
 Laboratorio personal preparado para una postulación a **Auxiliar de Informática**. Reúne una web estática y cinco herramientas pequeñas de consulta y diagnóstico, con código explícito y documentación en español.
 
+[Ver portfolio en GitHub Pages](https://gonza-or.github.io/portfolio/web/) · [Perfil de GitHub](https://github.com/gonza-or)
+
 El contenido es práctica de laboratorio: no representa experiencia laboral, certificaciones ni dominio avanzado. Las terminales de la web son ejemplos ilustrativos identificados, no capturas reales de herramientas.
 
 ## Proyectos
