@@ -15,7 +15,7 @@ Abrir <http://localhost:8000> en el navegador.
 ## Modificar el contenido
 
 - Editar `index.html` para cambiar textos, proyectos, formación y enlaces.
-- Editar `styles.css` para ajustar colores, tipografía o distribución.
+- Editar `stylesheets/styles.css` para ajustar colores, tipografía o distribución.
 - Reemplazar los enlaces que contienen `REEMPLAZAR_` en la sección de contacto.
 - `_config.yml` contiene la configuración mínima de GitHub Pages/Jekyll.
 
