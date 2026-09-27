@@ -16,7 +16,7 @@ Abrir <http://localhost:8000> en el navegador.
 
 - Editar `index.html` para cambiar textos, proyectos, formación y enlaces.
 - Editar `stylesheets/styles.css` para ajustar colores, tipografía o distribución.
-- Los TODO de email, LinkedIn, organismo y repositorios están comentados en `index.html` porque esos datos no fueron proporcionados.
+- Los textos de contacto, clases y repositorios quedan preparados en `index.html`; sus enlaces pueden completarse agregando los atributos `href` correspondientes.
 - `_config.yml` contiene la configuración mínima de GitHub Pages/Jekyll.
 
 ## Publicar con GitHub Pages
