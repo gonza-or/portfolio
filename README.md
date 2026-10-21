@@ -1,10 +1,22 @@
 # Portfolio técnico — Gonzalo Ortiz
 
-Portfolio personal estático, compatible con GitHub Pages. Está construido únicamente con HTML y CSS, usando como base visual el tema [Minimal de orderedlist](https://github.com/orderedlist/minimal), sin frameworks ni dependencias externas.
+Portfolio personal de Gonzalo Ortiz: soporte IT, infraestructura, redes, automatización y desarrollo.
+
+**Sitio publicado:** <https://gonza-or.github.io/portfolio/>
+
+*Personal technical portfolio (Spanish): IT support, infrastructure, networking, industrial automation and software development.*
+
+## Contenido
+
+- Sobre mí, experiencia, formación y tecnologías.
+- Proyectos destacados con enlace a cada repositorio: [GSIMPLC](https://github.com/gonza-or/GSIMPLC), [OF-Simu](https://github.com/gonza-or/of-simu), toolkits de diagnóstico ([Python](https://github.com/gonza-or/python-system-monitor), [PowerShell](https://github.com/gonza-or/powershell-windows-toolkit), [Bash](https://github.com/gonza-or/bash-linux-toolkit)), [Network Diagnostic Toolkit](https://github.com/gonza-or/network-diagnostic-toolkit) y [Cybersecurity Toolkit](https://github.com/gonza-or/cybersecurity-toolkit).
+- Contacto: [contacto@gonzaloof.me](mailto:contacto@gonzaloof.me) · [GitHub](https://github.com/gonza-or).
+
+## Tecnología
+
+Sitio estático en HTML y CSS, sin frameworks ni dependencias externas, basado en el tema [Minimal de orderedlist](https://github.com/orderedlist/minimal). Se publica con GitHub Pages desde la rama `main` (carpeta raíz).
 
 ## Ejecutar localmente
-
-Desde la raíz del repositorio:
 
 ```bash
 python3 -m http.server 8000
@@ -12,18 +24,11 @@ python3 -m http.server 8000
 
 Abrir <http://localhost:8000> en el navegador.
 
-## Modificar el contenido
+## Estructura
 
-- Editar `index.html` para cambiar textos, proyectos, formación y enlaces.
-- Editar `stylesheets/styles.css` para ajustar colores, tipografía o distribución.
-- Los textos de contacto, clases y repositorios quedan preparados en `index.html`; sus enlaces pueden completarse agregando los atributos `href` correspondientes.
-- `_config.yml` contiene la configuración mínima de GitHub Pages/Jekyll.
-
-## Publicar con GitHub Pages
-
-1. Subir los cambios a la rama `main`.
-2. En GitHub, abrir **Settings → Pages**.
-3. En **Build and deployment**, elegir **Deploy from a branch**.
-4. Seleccionar `main` y la carpeta `/ (root)`, y guardar.
-
-La dirección esperada es <https://gonza-or.github.io/portfolio/>.
+| Archivo | Contenido |
+|---|---|
+| `index.html` | Textos, proyectos, formación y enlaces |
+| `stylesheets/styles.css` | Colores, tipografía y distribución |
+| `favicon.svg` | Ícono del sitio |
+| `_config.yml` | Configuración mínima de GitHub Pages/Jekyll |

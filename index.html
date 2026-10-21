@@ -2,13 +2,20 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Gonzalo Ortiz">
     <meta name="description" content="Portfolio técnico de Gonzalo Ortiz: soporte IT, infraestructura, redes, automatización y desarrollo.">
     <meta property="og:title" content="Gonzalo Ortiz — Portfolio técnico">
     <meta property="og:description" content="Portfolio técnico de Gonzalo Ortiz: soporte IT, infraestructura, redes, automatización y desarrollo.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://gonza-or.github.io/portfolio/">
+    <meta property="og:site_name" content="Gonzalo Ortiz">
+    <meta property="og:locale" content="es_UY">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Gonzalo Ortiz — Portfolio técnico">
+    <meta name="twitter:description" content="Portfolio técnico de Gonzalo Ortiz: soporte IT, infraestructura, redes, automatización y desarrollo.">
+    <link rel="canonical" href="https://gonza-or.github.io/portfolio/">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <title>Gonzalo Ortiz — Portfolio técnico</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -17,15 +24,15 @@
     <div class="wrapper">
       <header>
         <h1>Gonzalo Ortiz</h1>
-        <p>Técnico en Automatización Industrial y estudiante de Tecnologías de la Información.</p>
+        <p>Técnico en Instrumentación Industrial y estudiante de Tecnologías de la Información.</p>
         <p><strong>Soporte IT · Infraestructura · Redes · Automatización · Desarrollo</strong></p>
-        <p class="view"><a>Ver mi perfil en GitHub<br><small>github.com/gonza-or</small></a></p>
+        <p class="view"><a href="https://github.com/gonza-or">Ver mi perfil en GitHub<br><small>github.com/gonza-or</small></a></p>
         <nav aria-label="Navegación principal">
-          <p><a>Sobre mí</a> · <a>Formación</a></p>
+          <p><a href="#sobre-mi">Sobre mí</a> · <a href="#formacion">Formación</a></p>
           <ul>
-            <li><a>Ver <strong>Experiencia</strong></a></li>
-            <li><a>Ver <strong>Proyectos</strong></a></li>
-            <li><a>Ir a <strong>Contacto</strong></a></li>
+            <li><a href="#experiencia">Ver <strong>Experiencia</strong></a></li>
+            <li><a href="#proyectos">Ver <strong>Proyectos</strong></a></li>
+            <li><a href="#contacto">Ir a <strong>Contacto</strong></a></li>
           </ul>
         </nav>
       </header>
@@ -37,7 +44,7 @@
 
         <h2 id="sobre-mi">Sobre mí</h2>
         <p>Mi interés por la informática comenzó desde chico, experimentando con la XO, Scratch y diferentes herramientas por curiosidad. Con el tiempo, esa curiosidad se transformó en formación técnica y experiencia profesional en soporte, redes, desarrollo y automatización.</p>
-        <p>Actualmente estudio la Licenciatura en Tecnologías de la Información en UTEC y soy Técnico en Automatización Industrial.</p>
+        <p>Actualmente estudio la Licenciatura en Tecnologías de la Información en UTEC y soy Técnico en Instrumentación Industrial.</p>
         <p>Me gusta trabajar cerca del problema: diagnosticar, entender qué está fallando y encontrar una solución que no solamente funcione, sino que sea mantenible, clara y confiable.</p>
 
         <h2 id="experiencia">Experiencia</h2>
@@ -45,7 +52,8 @@
         <p><strong>2025 — actualidad</strong></p>
         <p>Trabajo como docente de informática, enseñando contenidos tecnológicos y acompañando procesos de aprendizaje. Esta experiencia fortaleció especialmente mi capacidad para explicar conceptos técnicos de forma clara, adaptarme a distintos niveles de conocimiento, organizar tareas y comunicarme con diferentes personas.</p>
 
-        <h3>[NOMBRE DEL ORGANISMO] · 2024</h3>
+        <h3>Soporte informático y digitalización · Organismo público</h3>
+        <p><strong>2024</strong></p>
         <p>Participé junto a un equipo en tareas de soporte informático y proyectos de digitalización. Realicé diagnóstico, reparación y mantenimiento de equipos, brindando soporte al personal y procurando mantener los puestos de trabajo operativos.</p>
 
         <h3>Freelance</h3>
@@ -55,35 +63,36 @@
         <h2 id="proyectos">Proyectos</h2>
         <p>Herramientas personales para diagnosticar, automatizar y comprender mejor sistemas de escritorio, redes y procesos industriales.</p>
 
-        <h3>PC Diagnostic Toolkit</h3>
-        <p>Herramienta orientada al diagnóstico de equipos, con información sobre hardware, sistema operativo, almacenamiento, red y procesos.</p>
-        <p><strong>Tecnologías:</strong> Python · PowerShell · Bash</p>
-        <!-- TODO: agregar enlace al repositorio -->
-        <p><a>Ver repositorio</a></p>
-
-        <h3>Network Diagnostic Toolkit</h3>
-        <p>Conjunto de herramientas para diagnóstico de conectividad y redes: ping, traceroute, DNS, interfaces, gateway y puertos.</p>
-        <p><strong>Tecnologías:</strong> Python · Bash · PowerShell</p>
-        <!-- TODO: agregar enlace al repositorio -->
-        <p><a>Ver repositorio</a></p>
-
-        <h3>Security Toolkit</h3>
-        <p>Herramientas defensivas básicas para verificar hashes, integridad de archivos, procesos y conexiones activas.</p>
-        <p><strong>Tecnologías:</strong> Python</p>
-        <!-- TODO: agregar enlace al repositorio -->
-        <p><a>Ver repositorio</a></p>
-
         <h3>GSIMPLC</h3>
-        <p>Simulador orientado a automatización industrial que integra conceptos de PLC, SCADA, Modbus TCP y comunicación en tiempo real.</p>
-        <p><strong>Tecnologías:</strong> Python · Modbus TCP · WebSocket · HTML · CSS · JavaScript</p>
-        <!-- TODO: agregar enlace al repositorio -->
-        <p><a>Ver repositorio</a></p>
+        <p>Simulador de PLC en Python: ejecuta programas Ladder (<code>.lad</code>), expone Modbus TCP y un panel web de E/S en tiempo real, incluye un cliente SCADA (GSCADA) con alarmas e historial, y se integra como nodo en laboratorios GNS3. Incluye una suite de 97 tests con pytest.</p>
+        <p><strong>Tecnologías:</strong> Python · FastAPI · Modbus TCP · WebSocket · Docker · GNS3 · HTML · CSS · JavaScript</p>
+        <p><a href="https://github.com/gonza-or/GSIMPLC">Ver repositorio</a></p>
 
         <h3>OF-Simu</h3>
         <p>Editor de esquemas eléctricos y simulador de circuitos para escritorio, con funciones de automatización y servidor Modbus TCP local.</p>
         <p><strong>Tecnologías:</strong> Electron · TypeScript · Modbus TCP</p>
-        <!-- TODO: agregar enlace al repositorio -->
-        <p><a>Ver repositorio</a></p>
+        <p><a href="https://github.com/gonza-or/of-simu">Ver repositorio</a></p>
+
+        <!-- Pendiente: publicar el código de orscada-final-project (hoy el repositorio está vacío) y descomentar este bloque.
+        <h3>ORSCADA — Proyecto final de Instrumentación</h3>
+        <p>Sistema SCADA para el proyecto final de Instrumentación y Control: monitorea en tiempo real un proceso de clasificación de metales con un PLC M221.</p>
+        <p><a href="https://github.com/gonza-or/orscada-final-project">Ver repositorio</a></p>
+        -->
+
+        <h3>Toolkits de diagnóstico de sistemas</h3>
+        <p>Scripts de solo lectura para diagnosticar equipos: hardware, sistema operativo, almacenamiento, memoria, red, procesos, servicios y eventos.</p>
+        <p><strong>Tecnologías:</strong> Python · PowerShell · Bash</p>
+        <p><a href="https://github.com/gonza-or/python-system-monitor">Python System Monitor</a> · <a href="https://github.com/gonza-or/powershell-windows-toolkit">PowerShell Windows Toolkit</a> · <a href="https://github.com/gonza-or/bash-linux-toolkit">Bash Linux Toolkit</a></p>
+
+        <h3>Network Diagnostic Toolkit</h3>
+        <p>Herramienta para diagnóstico de conectividad y redes: hostname, interfaces, DNS, ping, prueba de puertos TCP y traceroute/tracert.</p>
+        <p><strong>Tecnologías:</strong> Python</p>
+        <p><a href="https://github.com/gonza-or/network-diagnostic-toolkit">Ver repositorio</a></p>
+
+        <h3>Security Toolkit</h3>
+        <p>Herramientas defensivas básicas: hashes SHA-256 e integridad de archivos, generación de contraseñas, puertos TCP locales, procesos, conexiones activas y revisión de logs.</p>
+        <p><strong>Tecnologías:</strong> Python</p>
+        <p><a href="https://github.com/gonza-or/cybersecurity-toolkit">Ver repositorio</a></p>
 
         <h2 id="tecnologias">Tecnologías</h2>
         <dl>
@@ -110,24 +119,22 @@
           <dt>Formación previa</dt>
           <dd><strong>Bachillerato de Informática · UTU</strong><br>Formación en soporte técnico, Windows, redes y desarrollo web.</dd>
         </dl>
-        <p><a>Clases de informática</a></p>
-        <!-- TODO: agregar enlace a las clases de informática -->
+        <p><a href="https://gonza-or.github.io/computer-science-classes/">Clases de informática</a> · <a href="https://github.com/gonza-or/computer-science-classes">repositorio</a></p>
 
         <h2 id="contacto">Contacto</h2>
         <p>Estoy abierto a oportunidades en soporte IT, infraestructura, redes, automatización y desarrollo.</p>
         <ul>
-          <li><a>GitHub: gonza-or</a></li>
-          <li><a>LinkedIn: gonzaloor</a></li>
-          <li><a>contacto@gonzaloof.me</a></li>
+          <li><a href="https://github.com/gonza-or">GitHub: gonza-or</a></li>
+          <li><a href="https://www.linkedin.com/in/gonzaloor/">LinkedIn: gonzaloor</a></li>
+          <li><a href="mailto:contacto@gonzaloof.me">contacto@gonzaloof.me</a></li>
         </ul>
       </section>
       </main>
 
       <footer>
         <p>© 2026 Gonzalo Ortiz</p>
-        <p><small>Hosted on GitHub Pages · Diseño basado en <a>orderedlist/minimal</a></small></p>
+        <p><small>Hosted on GitHub Pages · Diseño basado en <a href="https://github.com/orderedlist/minimal">orderedlist/minimal</a></small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
   </body>
 </html>
